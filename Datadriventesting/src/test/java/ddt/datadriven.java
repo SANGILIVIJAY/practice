@@ -46,6 +46,7 @@ String v=driver.getCurrentUrl();
      }
    else {
 	  driver.close();
+	   driver.quit();
 }
   }
 }
